@@ -58,10 +58,12 @@ function clickedOrNot(event) {
         return
     } else {
         if (currentPlayer === 'Player1') {
+            // event.target.innerText = 'X'
             event.target.style.backgroundColor = 'black';   
             gameBoardStatus[clickedId] = currentPlayer
             currentPlayer = 'Player2';
         } else {
+            // event.target.innerText = 'O'
             event.target.style.backgroundColor = 'pink';    
             gameBoardStatus[clickedId] = currentPlayer
             currentPlayer = 'Player1';

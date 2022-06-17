@@ -11,10 +11,13 @@ div {
 
 #grid {
     display: inline-block;
-    width: 650px; height: 650px;
+    width: 650px; height: auto;
     overflow: hidden;
 }
 
+.square:hover {
+    background-color: aqua;
+}
 
 .square {
     display: inline-block;
@@ -22,4 +25,5 @@ div {
     border: 5px solid black;
     cursor: pointer;
     margin: 1px;
+    font-size: 175px;
 }
